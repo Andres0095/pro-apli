@@ -1,0 +1,15 @@
+﻿<Window x:Class="JuegoInteractivo.Instrucciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JuegoInteractivo"
+        mc:Ignorable="d"
+        Title="Instrucciones" Height="450" Width="800">
+    <Grid>
+        <Label Content="     LA TRIVIA" Margin="0,38,0,0" FontSize="36" Foreground="#FF850E02" FontFamily="Comic Sans MS" HorizontalAlignment="Center" Width="376" VerticalAlignment="Top" Height="86" FontWeight="Bold"/>
+        <Label Content="     CONSTA DE 5 PREGUNTAS, RESPONDE CORRECTAMENTE...&#xD;&#xA;                                   EXITOS!!." HorizontalAlignment="Center" FontSize="20" Margin="0,153,0,171" FontFamily="Comic Sans MS" FontWeight="Bold" Width="692"/>
+        <Button x:Name="btnSiguiente" Content="SIGUIENTE" Margin="342,274,335,93" Background="#FF279727" FontSize="20" FontFamily="Comic Sans MS" Click="btnSiguiente_Click" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
